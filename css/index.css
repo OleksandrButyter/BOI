@@ -167,6 +167,20 @@ main {
     text-align: center;
    }
 
+.circle-white-animate {
+   position: relative;  
+    width: 150px;
+    height: 70px;
+    border-radius: 35px;
+    top: -35px;
+    left: 520px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #2B5797;
+    color: #173C72;
+    font-size: 22px;
+    text-align: center;
+   }
+
 .circle-navy {
    position: relative;  
     width: 150px;
