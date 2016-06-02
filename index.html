@@ -4,16 +4,33 @@
     <title>Oleksandr Butyter | Personal site</title>
     <meta charset="UTF-8">
     <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="(min-width: 991px)" href="css/index.css">
+    <link rel="stylesheet" media="(max-width: 990px)" href="css/index-sm.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-   <header>
+    <header>
        <div id="bg-top-bar"><div id="top-bar"><span id="top-bar-left">Oleksandr Butyter</span><span id="top-bar-right">Think ahead!</span></div></div>
        <div id="bg-nav-bar">
           <nav id="nav-bar">
-               <ul class="navigation">
+               <ul>
+                    <li>
+                        <img id="img-sm" src="images/butyter_110x110.jpg" alt="BOI">
+                        <span id="nav-bar-left">Oleksandr Butyter</span>
+                    </li>
+                    <li>
+                    <div id="dropdown">
+                      <i id="dropbtn" class="fa fa-bars"></i>
+                      <div id="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#references">References</a>
+                        <a href="#contact">Contact</a>
+                      </div>
+                    </div>                    
+                    </li>
                     <li>
                         <a href="#home">Home</a>
                     </li>
@@ -82,6 +99,8 @@ Vim menandri suscipiantur definitionem ut, mel veri referrentur te, mel te magna
                 </div>
             </section>
        </div>
-   </main>
+      </main>
+<script   src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
