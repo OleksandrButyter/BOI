@@ -261,21 +261,21 @@ margin: auto;
     border-radius: 150px;
     width: 250px;
     height: 250px;
-    margin: 45px 0px 45px 50px;
+    margin: 20px 0px 25px 50px;
 }
 
 #arrow-yura {
     display: none;
     position: absolute;
-    top:100px;
-    left: -75px;
+    top:200px;
+    left: -95px;
     border-radius: 100px;
 }
 
 #arrow-vasya {
     display: none;
     position: absolute;
-    top:50px;
+    top:170px;
     left: 250px;
     border-radius: 100px;
 }
@@ -296,7 +296,7 @@ margin: auto;
     border-radius: 150px;  
     width: 250px;
     height: 250px;
-     margin: 45px 50px 45px 0px;
+    margin: 20px 50px 25px 0px;
 }
 
 .clearfix::after {
@@ -323,9 +323,61 @@ margin: auto;
     border-radius: 2px;
 }
 
+#line-short {
+    background-color: #fff;
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 1px;
+}
 
+#line-blue {
+    background-color: #4A70A6;
+    height: 4px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 2px;            
+}
 
+#line-blue-short {
+    background-color: #4A70A6;
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 1px;            
+}
 
+#family-top {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#family-bottom {
+    text-align: center;
+    clear: both;
+    display: block;
+     padding-top: 20px;
+}
+
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:15px;
+	right:10px;
+	display:none;
+	background: url('../images/arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
 
 
 
