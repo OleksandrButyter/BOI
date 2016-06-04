@@ -183,14 +183,14 @@ main {
     margin-top: 50px;
 }
 
-#experience {
+#education {
     background-color: #4A70A6;
     border-right:3px solid #fff;
     color: #fff;
     margin-top: 50px;
 }
 
-#references {
+#family {
     background-color: #fff;
     border-right:3px solid #4A70A6;
     color: #4A70A6;
@@ -236,12 +236,12 @@ main {
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 2px 2px 2px #2B5797;
-    color: #173C72;
+    color: #2B5797;
     font-size: 60px;
     text-align: center;
    }
 
-.circle-white-animate {
+/* .circle-white-animate {
    position: relative;  
     width: 150px;
     height: 70px;
@@ -253,7 +253,7 @@ main {
     color: #173C72;
     font-size: 22px;
     text-align: center;
-   }
+   } */
 
 .circle-navy {
    position: relative;  
@@ -267,4 +267,127 @@ main {
     color: #fff;
     font-size: 60px;
     text-align: center;
-   }
+}
+
+.circle-navy-animate {
+   position: relative;  
+    width: 150px;
+    height: 70px;
+    border-radius: 35px;
+    top: -35px;
+    margin: 0 auto;
+    background-color: #4A70A6;
+    box-shadow: 2px 2px 2px #2B5797;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+#fa-child {
+   font-size: 32px;  
+}
+
+#edu-left {
+    float: left;
+    width: 290px;
+    height: 140px;
+    text-align: center;
+    margin-left: 75px;
+    
+}
+
+#edu-right {
+    float: right;
+    width: 390px;
+    height: 140px;
+     margin-right: 75px;
+}
+
+#img-softserve {
+    width: 234px;
+    height: 54px; 
+    margin-top: 53px;
+}
+
+#img-lnu {
+    margin-top: 53px;
+}
+#img-lpml {
+    width: 126px;
+    height: 54px; 
+    margin-top: 53px;
+}
+
+#photo-container {
+position: relative;
+margin: auto;
+}
+
+#img-yura-vasya {
+    
+    display: block;
+    float: left;
+    border:3px solid #4A70A6; 
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+    margin: 45px 0px 45px 50px;
+}
+
+#arrow-yura {
+    display: none;
+    position: absolute;
+    top:100px;
+    left: -75px;
+    border-radius: 100px;
+}
+
+#arrow-vasya {
+    display: none;
+    position: absolute;
+    top:50px;
+    left: 250px;
+    border-radius: 100px;
+}
+
+#img-yura-vasya:hover ~ #arrow-yura {
+    display: block;
+}
+
+#img-yura-vasya:hover ~ #arrow-vasya {
+    display: block;
+}
+
+#img-katya {
+    
+   display: block;
+    float: right;
+    border:3px solid #4A70A6; 
+    border-radius: 150px;  
+    width: 250px;
+    height: 250px;
+     margin: 45px 50px 45px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#i-h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#i-p {
+    text-align: center;
+}
+
+#line {
+    background-color: #fff;
+    height: 4px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
