@@ -6,7 +6,6 @@
      background-position: top center;
      min-width: 620px;
      margin: 0 auto;
-     z-index: -30;
 }
 
 header {
@@ -16,6 +15,7 @@ header {
     margin: 0 auto;
     font-family: Montserrat;
     color: #fff;
+    z-index: 1;
 }
 
 #top-bar {
@@ -159,16 +159,13 @@ main {
     position: relative;
     top: 105px;
     margin: 0 auto;
-    z-index: -1;
     font-family: Montserrat;
+    min-width: 620px;
 }
 
 #section {
-  /*  position: absolute; */
    width: 100%;
-  /* left: 272px; */
-   
-}
+ }
 
 
 #home {
@@ -249,20 +246,6 @@ main {
     font-size: 60px;
     text-align: center;
    }
-
-/* .circle-white-animate {
-   position: relative;  
-    width: 150px;
-    height: 70px;
-    border-radius: 35px;
-    top: -35px;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px #2B5797;
-    color: #173C72;
-    font-size: 22px;
-    text-align: center;
-   } */
 
 .circle-navy {
    position: relative;  
