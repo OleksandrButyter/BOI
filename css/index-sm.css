@@ -442,11 +442,11 @@ margin: auto;
     font-family: Montserrat;
 }
 
- #btn-send {
+#btn-send {
      background-color: #4A70A6;
      color: #fff;
      height: 50px;
-     font-size: 20px;
+     font-size: 20px; 
 }
 
 #map {
