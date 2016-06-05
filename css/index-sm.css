@@ -398,7 +398,7 @@ margin: auto;
     border-radius: 1px;
 }
 
-#line-blue {
+.line-blue {
     background-color: #4A70A6;
     height: 4px;
     width: 600px;
@@ -406,7 +406,7 @@ margin: auto;
     border-radius: 2px;            
 }
 
-#line-blue-short {
+.line-blue-short {
     background-color: #4A70A6;
     height: 2px;
     width: 200px;
@@ -414,13 +414,13 @@ margin: auto;
     border-radius: 1px;            
 }
 
-#family-top {
+.family-top {
     text-align: center;
     margin: 0 auto;
      padding: 20px 10px;
 }
 
-#family-bottom {
+.family-bottom {
     text-align: center;
     clear: both;
     display: block;
