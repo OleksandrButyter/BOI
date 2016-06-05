@@ -5,7 +5,8 @@
      background-size: cover;
      background-position: top center;
      min-width: 620px;
-     margin: 0;
+     margin: 0 auto;
+     z-index: -30;
 }
 
 header {
@@ -440,13 +441,13 @@ margin: auto;
     width: 60%;
     margin: 10px 0;
     font-family: Montserrat;
+    font-size: 20px; 
 }
 
 #btn-send {
      background-color: #4A70A6;
      color: #fff;
      height: 50px;
-     font-size: 20px; 
 }
 
 #map {

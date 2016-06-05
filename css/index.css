@@ -4,7 +4,7 @@
      background-attachment: fixed;
      background-size: cover;
      background-position: top center;
-     margin: 0;
+     margin: 0 auto;
     }
 
 header {
@@ -179,20 +179,6 @@ main {
     font-size: 60px;
     text-align: center;
    }
-
-/* .circle-white-animate {
-   position: absolute;  
-    width: 150px;
-    height: 70px;
-    border-radius: 35px;
-    top: -35px;
-    left: 520px;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px #2B5797;
-    color: #173C72;
-    font-size: 22px;
-    text-align: center;
-   } */
 
 .circle-navy {
    position: absolute;  
@@ -400,13 +386,13 @@ margin: auto;
     width: 60%;
     margin: 10px 0;
     font-family: Montserrat;
+    font-size: 20px; 
 }
 
- #btn-send {
+#btn-send {
      background-color: #4A70A6;
      color: #fff;
      height: 50px;
-     font-size: 20px;
 }
 
 #map {

@@ -3,13 +3,13 @@ $('#btn-send').click(function(e) {
       url: "https://formspree.io/olekbut@gmail.com",  
       method: "POST",
       data: {
-            Yourname: yourname.value,
+            Name: yourname.value,
             Email: email.value,
             Message: msg.value
              },
       dataType: "json"
   }).done(function() {
-     $('#container').html('<h1>Thank you!</h1>')
+     $('#container').html('<h1>Thank you for your letter!</h1>')
   } );
   e.preventDefault();
 });
