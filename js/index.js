@@ -9,7 +9,8 @@ $('#btn-send').click(function(e) {
              },
       dataType: "json"
   }).done(function() {
-     $('#container').html('<h1>Thank you for your letter!</h1>')
+     $('#container').html('<h1>Thank you for your letter!</h1>');
+    $('#msg').html('')   
   } );
   e.preventDefault();
 });
