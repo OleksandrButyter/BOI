@@ -396,7 +396,7 @@ margin: auto;
     margin-top: 10px;
 }
 
-#your-name, #email, #msg, #btn-send {
+#yourname, #email, #msg, #btn-send {
     width: 60%;
     margin: 10px 0;
     font-family: Montserrat;
