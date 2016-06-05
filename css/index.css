@@ -140,10 +140,17 @@ main {
     margin-top: 50px;
 }
 
-#contact {
+#hobby {
     background-color: #4A70A6;
     border-right:3px solid #fff;
     color: #fff;
+    margin-top: 50px;
+}
+
+#contact {
+    background-color: #fff;
+    border-right:3px solid #4A70A6;
+    color: #4A70A6;
     margin-top: 50px;
 }
 
@@ -231,6 +238,7 @@ main {
     float: right;
     width: 390px;
     height: 140px;
+    text-align: center;
 }
 
 #img-softserve {
@@ -379,9 +387,25 @@ margin: auto;
 	text-decoration:none;
 }
 
+.contact-me {
+    text-align: center;
+    margin-top: 10px;
+}
 
+#your-name, #email, #msg, #btn-send {
+    width: 60%;
+    margin: 10px 0;
+    font-family: Montserrat;
+}
 
+ #btn-send {
+     background-color: #4A70A6;
+     color: #fff;
+     height: 50px;
+     font-size: 20px;
+}
 
-
-
-
+#map {
+        width: 100%;
+        height: 300px;
+      }

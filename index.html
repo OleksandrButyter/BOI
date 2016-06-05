@@ -27,6 +27,7 @@
                         <a href="#about">About</a>
                         <a href="#education">Education</a>
                         <a href="#family">Family</a>
+                        <a href="#hobby">Hobby</a>
                         <a href="#contact">Contact</a>
                       </div>
                     </div>                    
@@ -42,6 +43,9 @@
                     </li>
                     <li>
                        <a href="#family">Family</a>  
+                    </li>
+                    <li>
+                       <a href="#hobby">Hobby</a>  
                     </li>
                     <li>
                        <a href="#contact">Contact</a>  
@@ -119,43 +123,62 @@ Vim menandri suscipiantur definitionem ut, mel veri referrentur te, mel te magna
                    <div id="line-blue-short"></div>
                    <div  class="clearfix">
                    <p id="family-top">I'm the happiest person on the world, because I have two brilliant sons (Yura & Vasya) and a beautiful wife (Katya). Yura is four years old and Vasya is two. Actually, that's the most interesting and exciting time to see how they grow.</p>
+                   <div id="img-field-kids">
                    <img id="img-yura-vasya" src="images/yura_vasya_300x300.jpg" alt="Yura Vasya">
                    <img id="arrow-yura" src="images/arrow_yura.png" alt="Arrow Yura">
                    <img id="arrow-vasya" src="images/arrow_vasya.png" alt="Arrow Vasya"> 
+                   </div>
+                   <div id="img-field-katya">
                    <img id="img-katya" src="images/katya_300x300.jpg" alt="Katya">
+                    </div>
                     <p id="family-bottom">Five years ago I even couldn't imagine it !!!</p>
                    </div>
                   <div id="line-blue"></div> 
                   <br> 
                 </div>
             </section>
-            <section id="contact">
+            <section id="hobby">
                 <div class="circle-container">
                  <div class="circle-white"><i class="fa fa-bicycle"></i></div>
-                 <h1 id="i-h1">Contact me</h1>
+                 <h1 id="i-h1">My hobby</h1>
                  <div id="line-short"></div>
-                 <div>
-                      <form id="sample">
-                        <label for="email">Your Email:</label>
-                        <input id="email" type="email">
-                        <br>
-                        <label for="msg">Message:</label>
-                        <input id="msg">
-                        <button id="btn-send">
-                          Send
-                        </button>
-                      </form>
-                   </div>
-                   <div id="container">
-                   </div>
+                  <p>Lorem ipsum dolor sit amet, qui ut habemus inimicus expetenda. Accusamus contentiones vix te, eos diam ipsum accusamus no, eruditi periculis at his. Diam omittam scaevola eos in, ius ne diceret propriae tractatos. In per detracto senserit. Persecuti temporibus ad vim, mutat assueverit cotidieque has ad. Eu equidem detracto duo. Altera legimus et sit, dicit ubique tacimates qui te.
+
+Vim menandri suscipiantur definitionem ut, mel veri referrentur te, mel te magna inermis posidonium. An saperet postulant voluptatibus eum, duo summo iriure ad. Usu eu insolens assueverit, te pri idque assum, voluptua deseruisse theophrastus et vim. Eu qui ridens eripuit dissentiunt, mea ea omnis aliquip, ne per dolorum copiosae deseruisse.</p>
                  <div id="line"></div> 
                  <br>
                 </div>
             </section>
-       </div>
+            <section id="contact">
+                <div class="circle-container">
+                 <div class="circle-navy"><i class="fa fa-pencil-square-o"></i></div>
+                 <h1 id="i-h1">Contact me</h1>
+                 <div id="line-blue-short"></div>
+                    <div  class="clearfix contact-me"> 
+                    <form id="sample">
+                        <label for="your-name">Name</label><br>
+                        <input id="your-name" type="email" placeholder="Your name" required><br>
+                        <label for="email">E-mail</label><br>
+                        <input id="email" type="email" placeholder="Your e-mail" required><br>   
+                        <label for="msg">Message</label><br>
+                        <textarea id="msg" rows="5" placeholder="Your message" required></textarea><br>
+                        <button id="btn-send">Send message</button>
+                    </form>
+                    </div> 
+                   <div id="container">
+                   </div>
+                   <div id="map"></div>
+                   <br>
+                   <div id="line-blue"></div> 
+                 <br>
+                </div>
+            </section>
+        </div>
        <a href="#" class="scrollToTop"></a>
       </main>
-<script   src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="js/map.js"></script>      
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

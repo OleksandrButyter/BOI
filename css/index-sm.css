@@ -4,7 +4,7 @@
      background-attachment: fixed;
      background-size: cover;
      background-position: top center;
-     min-width: 610px;
+     min-width: 620px;
      margin: 0;
 }
 
@@ -75,7 +75,7 @@ header {
 ul {
     list-style-type: none;
     height: 70px;
-    min-width: 610px;
+    min-width: 620px;
     margin: 0;
     padding: 0;
 }
@@ -84,7 +84,8 @@ li:nth-child(3),
 li:nth-child(4),
 li:nth-child(5),
 li:nth-child(6),
-li:nth-child(7) {
+li:nth-child(7),
+li:nth-child(8) {
     display: none;
 }
 
@@ -130,7 +131,7 @@ li:nth-child(2) {
     position: absolute;
     right: 0;
     background-color: #173C72;
-    min-width: 160px;
+  /*   min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -197,10 +198,17 @@ main {
     margin-top: 50px;
 }
 
-#contact {
+#hobby {
     background-color: #4A70A6;
     border-right:3px solid #fff;
     color: #fff;
+    margin-top: 50px;
+}
+
+#contact {
+    background-color: #fff;
+    border-right:3px solid #4A70A6;
+    color: #4A70A6;
     margin-top: 50px;
 }
 
@@ -289,18 +297,16 @@ main {
 
 #edu-left {
     float: left;
-    width: 290px;
+    width: 38%;
     height: 140px;
     text-align: center;
-    margin-left: 75px;
-    
 }
 
 #edu-right {
     float: right;
-    width: 390px;
+    width: 62%;
     height: 140px;
-     margin-right: 75px;
+    text-align: center;
 }
 
 #img-softserve {
@@ -324,14 +330,10 @@ margin: auto;
 }
 
 #img-yura-vasya {
-    
-    display: block;
-    float: left;
     border:3px solid #4A70A6; 
     border-radius: 150px;
     width: 250px;
     height: 250px;
-    margin: 45px 0px 25px 50px;
 }
 
 #arrow-yura {
@@ -343,14 +345,25 @@ margin: auto;
 }
 
 #img-katya {
-    
-   display: block;
-    float: right;
     border:3px solid #4A70A6; 
     border-radius: 150px;  
     width: 250px;
     height: 250px;
-     margin: 45px 50px 25px 0px;
+  
+}
+
+#img-field-kids {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#img-field-katya {
+    width: 50%;
+    display: block;
+    float: right;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -413,3 +426,26 @@ margin: auto;
     display: block;
      padding-top: 20px;
 }
+
+.contact-me {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#your-name, #email, #msg, #btn-send {
+    width: 60%;
+    margin: 10px 0;
+    font-family: Montserrat;
+}
+
+ #btn-send {
+     background-color: #4A70A6;
+     color: #fff;
+     height: 50px;
+     font-size: 20px;
+}
+
+#map {
+        width: 100%;
+        height: 300px;
+      }

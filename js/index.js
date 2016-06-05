@@ -34,6 +34,11 @@ $("#dropdown-content a:nth-child(4)").click(function() {
 });
 
 $("#dropdown-content a:nth-child(5)").click(function() {
+  $("html, body").animate({ scrollTop: $('#hobby').offset().top - 150}, 500);
+  return false;
+});
+
+$("#dropdown-content a:nth-child(6)").click(function() {
   $("html, body").animate({ scrollTop: $('#contact').offset().top - 150}, 500);
   return false;
 });
@@ -59,10 +64,14 @@ $("#bar li:nth-child(6)").click(function() {
 });
 
 $("#bar li:nth-child(7)").click(function() {
-  $("html, body").animate({ scrollTop: $('#contact').offset().top - 150}, 500);
+  $("html, body").animate({ scrollTop: $('#hobby').offset().top - 150}, 500);
   return false;
 });
 
+$("#bar li:nth-child(8)").click(function() {
+  $("html, body").animate({ scrollTop: $('#contact').offset().top - 150}, 500);
+  return false;
+});
 
 $(document).ready(function(){
 	
