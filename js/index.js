@@ -1,3 +1,18 @@
+$('#btn-send').click(function(e) {
+   $.ajax({
+      url: "https://formspree.io/olekbut@gmail.com",  
+      method: "POST",
+      data: {
+             email: email.value,
+             message: msg.value
+             },
+      dataType: "json"
+  }).done(function() {
+     $('#container').html('<h1>Thank you!</h1>')
+  } );
+  e.preventDefault();
+});
+
 $("#dropdown-content a:nth-child(1)").click(function() {
   $("html, body").animate({ scrollTop: $('#home').offset().top - 150}, 500);
   return false;
@@ -67,3 +82,4 @@ $(document).ready(function(){
 	});
 	
 });
+
