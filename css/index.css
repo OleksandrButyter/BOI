@@ -222,7 +222,11 @@ main {
     text-align: center;
 }
 
-#fa-child {
+#fa-child-2 {
+   font-size: 32px;  
+}
+
+#fa-child-3 {
    font-size: 32px;  
 }
 
