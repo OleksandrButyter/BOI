@@ -295,14 +295,14 @@ main {
    font-size: 32px;  
 }
 
-#edu-left {
+.edu-left {
     float: left;
     width: 38%;
     height: 140px;
     text-align: center;
 }
 
-#edu-right {
+.edu-right {
     float: right;
     width: 62%;
     height: 140px;
@@ -372,7 +372,7 @@ margin: auto;
     clear: both;
 }
 
-#i-h1 {
+.i-h1 {
     text-align: center;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -382,7 +382,7 @@ margin: auto;
     text-align: center;
 }
 
-#line {
+.line {
     background-color: #fff;
     height: 4px;
     width: 600px;
@@ -390,7 +390,7 @@ margin: auto;
     border-radius: 2px;
 }
 
-#line-short {
+.line-short {
     background-color: #fff;
     height: 2px;
     width: 200px;
