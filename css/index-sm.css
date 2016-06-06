@@ -469,3 +469,8 @@ margin: auto;
     float: left;
     margin-top: 30px;
 }
+
+.img-sport {
+    width: 240px;
+    height: 240px;
+}
