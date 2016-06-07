@@ -251,7 +251,7 @@ position: relative;
 margin: auto;
 }
 
-#img-yura-vasya {
+.img-yura-vasya {
     
     display: block;
     float: left;
@@ -278,15 +278,15 @@ margin: auto;
     border-radius: 100px;
 }
 
-#img-yura-vasya:hover ~ #arrow-yura {
+.img-yura-vasya:hover ~ #arrow-yura {
     display: block;
 }
 
-#img-yura-vasya:hover ~ #arrow-vasya {
+.img-yura-vasya:hover ~ #arrow-vasya {
     display: block;
 }
 
-#img-katya {
+.img-katya {
     
    display: block;
     float: right;

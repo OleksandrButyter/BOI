@@ -317,7 +317,7 @@ position: relative;
 margin: auto;
 }
 
-#img-yura-vasya {
+.img-yura-vasya {
     border:3px solid #4A70A6; 
     border-radius: 150px;
     width: 250px;
@@ -332,7 +332,7 @@ margin: auto;
     display: none;
 }
 
-#img-katya {
+.img-katya {
     border:3px solid #4A70A6; 
     border-radius: 150px;  
     width: 250px;
@@ -340,14 +340,14 @@ margin: auto;
   
 }
 
-#img-field-kids {
+.img-field-kids {
     width: 50%;
     display: block;
     float: left;
     text-align: center;
 }
 
-#img-field-katya {
+.img-field-katya {
     width: 50%;
     display: block;
     float: right;

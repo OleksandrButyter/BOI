@@ -8,6 +8,7 @@
     <link rel="stylesheet" media="(min-width: 991px)" href="css/index.css">
     <link rel="stylesheet" media="(max-width: 990px)" href="css/index-sm.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -124,13 +125,19 @@ Vim menandri suscipiantur definitionem ut, mel veri referrentur te, mel te magna
                    <div class="line-blue-short"></div>
                    <div  class="clearfix">
                    <p class="family-top">I'm the happiest person on the world, because I have two brilliant sons (Yura & Vasya) and a beautiful wife (Katya). Yura is four years old and Vasya is two. Actually, that's the most interesting and exciting time to see how they grow.</p>
-                   <div id="img-field-kids">
-                   <img id="img-yura-vasya" src="images/yura_vasya_300x300.jpg" alt="Yura Vasya">
+                   <div class="img-field-kids">
+                   <img class="img-yura-vasya" class="wow bounceInLeft" src="images/yura_vasya_300x300.jpg" alt="Yura Vasya">
                    <img id="arrow-yura" src="images/arrow_yura.png" alt="Arrow Yura">
                    <img id="arrow-vasya" src="images/arrow_vasya.png" alt="Arrow Vasya"> 
                    </div>
-                   <div id="img-field-katya">
-                   <img id="img-katya" src="images/katya_300x300.jpg" alt="Katya">
+                   <div class="img-field-katya">
+                   <img class="img-katya" class="wow bounceInRight" src="images/katya_300x300.jpg" alt="Katya">
+                   </div>
+                   <div class="img-field-kids">
+                   <img class="img-yura-vasya" class="wow bounceInLeft" src="images/yura_vasya_300x300_2.jpg" alt="Yura Vasya">
+                   </div>
+                   <div class="img-field-katya">
+                   <img class="img-katya" class="wow bounceInRight" src="images/yura_vasya_300x300_.jpg" alt="Katya">
                     </div>
                     <p class="family-bottom">Five years ago I even couldn't imagine it !!!</p>
                    </div>
@@ -195,5 +202,9 @@ Vim menandri suscipiantur definitionem ut, mel veri referrentur te, mel te magna
 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
+<script src="js/wow.min.js"></script>
+       <script>
+       new WOW().init();
+       </script>
 </body>
 </html>
