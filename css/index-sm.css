@@ -1,5 +1,5 @@
  body {
-     background-image: url("../images/white-background-image-18.jpg");
+     background-image: url("../images/proba2.jpg");
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
@@ -212,11 +212,6 @@ main {
 
  #img {
     display: none;
-   /*  position: fixed;
-    top: 120px;
-    height: 375px;
-    width: 262px;
-    border-radius: 30px; */
 } 
 
 #img-sm {
