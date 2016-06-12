@@ -118,3 +118,7 @@ setInterval(function() {
    });
  
 });
+
+new WOW().init();
+   
+    
