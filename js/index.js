@@ -141,7 +141,9 @@ $(document).ready(function() {
     singleItem: true,
     autoPlay: true,
     autoPlay: 3000,
-    stopOnHover: true
+    stopOnHover: true,
+    rewindNav: true,
+    rewindSpeed: 0
   });
 
 });
